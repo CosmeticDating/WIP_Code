@@ -1,0 +1,47 @@
+body {
+  max-width: 1280px;
+  min-width: 468px;
+  min-height: auto;
+  background-color: #ccc;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin: auto;
+  background-color: blue;
+  height: 30px;
+}
+.search-container {
+  float: right;
+  margin-left: 92%;
+  padding-right: 2%;
+  padding-top: 4px;
+}
+
+section {
+  float: left;
+  margin-top: 20px;
+  margin-right: 90%;
+  width: 100%;
+  height: 400px;
+  background-color: green;
+}
+
+aside {
+  width: 23%;
+  height: 400px;
+  background-color: pink;
+  float: right;
+  /*
+    Space allocated for chat app
+    Leave empty for now
+  */
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+  margin-top: 100%;
+}
